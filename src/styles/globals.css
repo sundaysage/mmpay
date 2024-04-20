@@ -22,3 +22,22 @@ li:hover{
     color: whitesmoke;
 
 }
+.controldiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 60%;
+
+}
+.controldiv div{
+    width: 30%;
+    height: 40%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;text-align: bottom;
+
+    
+}

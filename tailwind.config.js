@@ -18,6 +18,14 @@ module.exports = {
       height: {
         'h-r': '10%',
         'h-t': '90%',
+        'o':'6%'
+      },
+      width:{
+        'w-t':'95%',
+        'w-i':'90%',
+      },
+      borderRadius:{
+        '4xl':'10%',
       }
     },
   },
