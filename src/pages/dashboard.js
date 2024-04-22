@@ -5,7 +5,7 @@ const dashboard = () => {
   return (
     <div className=' md:w-4/5  md:absolute md:right-0 md:bottom-0 md:h-h-t  h-screen'>
       <div className='md:flex flex-wrap  md:h-full h-full overflow-y-auto md:m-auto w-full justify-around  '>
-        <section className=' md:h-d md:w-2/5 flex flex-col md:justify-evenly mt-3 items-center h-full justify-around'>
+        <section className=' md:h-d md:w-2/5 flex flex-col md:justify-evenly md:mt-3 items-center h-4/5 justify-around'>
 
           <div className=' h-1/5 rounded-3xl md:flex flex-col text-left justify-center p-5 bg-[#E1E1E9] hidden m-3'>
             <p className='flex  text-2xl'>Account Balance</p>
@@ -50,12 +50,29 @@ const dashboard = () => {
           </div>
 
         </section>
-        <section className=' md:w-3/12 md:h-4/5 h-full w-full  md:my-8 p-5'>
-          <card className='flex md:rounded-4xl bg-[#FFFFFF] h-full flex-col p-4'>
+        <section className=' md:w-3/12 md:h-4/5 h-1/2 w-full  md:my-8 '>
+          <card className='flex  md:rounded-4xl bg-[#FFFFFF] h-full flex-col p-4'>
             <h5 className=' h-o mt-5'> Recent Transations </h5>
             <hr />
-            <div className='flex flex-col justify-around  h-full'>
-
+            <div className='flex flex-col md:justify-around  h-full'>
+              <div className='flex justify-between '>
+                <div>
+                  <p>
+                    Registration Bonus
+                  </p>
+                  <p>
+                    Transation ID: WP4TR23PO
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    +10.00
+                  </p>
+                  <p>
+                    9:00 am
+                  </p>
+                </div>
+              </div>
               <div className='flex justify-between '>
                 <div>
                   <p>
@@ -111,9 +128,6 @@ const dashboard = () => {
                 </div>
               </div>
             </div>
-
-
-
           </card>
         </section>
       </div>

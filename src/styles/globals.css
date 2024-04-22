@@ -26,7 +26,7 @@ li:hover{
 .controldiv{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 50%;
 
 }
