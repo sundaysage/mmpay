@@ -8,7 +8,7 @@ const Sidenav = () => {
         <div className='flex'>
             <div className='hidden w-1/5 md:absolute bg-white h-full md:flex md:flex-col  '>
 
-                <div className='hidden w-full md:absolute h-4/5 md:flex md:flex-col md:justify-around  '>
+                <div className='hidden w-full md:absolute h-full md:flex md:flex-col md:justify-around bg-red-400  '>
                     <div className='flex w-3/6 m-auto'>
                         <img src='logo.svg' alt='logo' />
                     </div>
