@@ -6,7 +6,7 @@ const Sidenav = () => {
     const [open, setOpen] = useState(false)
     return (
         <div className='flex'>
-            <div className='hidden w-1/5 md:absolute bg-white h-full md:flex md:flex-col  '>
+            <div className='hidden w-1/5 md:absolute  h-full md:flex md:flex-col  '>
 
                 <div className='hidden w-full md:absolute h-full md:flex md:flex-col md:justify-around bg-red-400  '>
                     <div className='flex w-3/6 m-auto'>
@@ -42,8 +42,8 @@ const Sidenav = () => {
             </div>
 
 
-            <nav className='md:w-4/5 md:absolute md:right-0 w-full h-h-r bg-white'>
-                <div className='flex item-center font-medium justify-around'>
+            <nav className='md:w-4/5 md:absolute md:right-0 w-full'>
+                <div className='flex item-center justify-around'>
                     <div className=' md:p-5 md:w-auto w-full flex justify-between'>
                         <div className='md:hidden'>
                             <p>Good day</p>
@@ -53,7 +53,7 @@ const Sidenav = () => {
                             =
                         </div>
                     </div>
-                    <ul className='md:flex hidden uppercase items-center  md:justify-between w-full m-5 '>
+                    <ul className='md:flex hidden uppercase items-center  md:justify-between w-full '>
                         <div className=' md:w-2/3 justify-around flex '>
                             <Link href='' to='/' className='py-7 px-3 inline-block'>
                                 Home
