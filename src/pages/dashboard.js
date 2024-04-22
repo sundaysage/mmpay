@@ -12,22 +12,22 @@ const dashboard = () => {
           </div>
 
           <div className={'controldiv'}>
-            <div className='flex bg-red-500'>buy Data</div>
-            <div className='flex bg-green-700'>buy airtime</div>
-            <div className='flex bg-blue-950'>buy CableTv</div>
-            <div className='flex bg-green-300'>buy Electricit</div>
-            <div className='flex bg-sky-400'>buy Bet wallet</div>
-            <div className='flex bg-amber-600'>buy Giftcard</div>
+            <div className='flex md:w-o w-2/5 bg-red-500'>buy Data</div>
+            <div className='flex md:w-o w-2/5 bg-green-700'>buy airtime</div>
+            <div className='flex md:w-o w-2/5 bg-blue-950'>buy CableTv</div>
+            <div className='flex md:w-o w-2/5 bg-green-300'>buy Electricit</div>
+            <div className='flex md:w-o w-2/5 bg-sky-400'>buy Bet wallet</div>
+            <div className='flex md:w-o w-2/5 bg-amber-600'>buy Giftcard</div>
           </div>
-          <div className=' bg-green-500 h-h-r flex flex-col w-w-t justify-around m-3'>
-            <p className='flex text-lg'>click to copy your Referral</p>
+          <div className=' h-h-r flex flex-col w-w-t justify-around m-3 '>
+            <p className='flex text-lg mt-5'>click to copy your Referral</p>
             < input className='flex w-w-i h-1/2' />
           </div>
 
         </section>
-        <section className=' w-3/12 h-4/5'>
-          <card className='flex rounded-4xl bg-white h-full flex-col p-4'>
-            <h5 className=' h-o mt-12'> Recent Transations </h5>
+        <section className=' md:w-3/12 md:h-4/5 h-full w-full m-auto my-8 p-5'>
+          <card className='flex md:rounded-4xl bg-white h-full flex-col p-4'>
+            <h5 className=' h-o mt-5'> Recent Transations </h5>
             <hr />
             <div className='flex flex-col justify-around  h-full'>
 

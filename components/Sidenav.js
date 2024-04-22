@@ -97,22 +97,22 @@ const Sidenav = () => {
                             <Link href='./dashboard' to='/' className=' px-3 '>
                                 Dashboard
                             </Link>
-                            <Link href='' to='/' className=' px-3 '>
+                            <Link href='./deposit' to='' className=' px-3 '>
                                 Deposit
                             </Link>
-                            <Link href='' to='/' className=' px-3 '>
+                            <Link href='./airtime' to='/' className=' px-3 '>
                                 Buy Airtime
                             </Link>
-                            <Link href='' to='/' className=' px-3 '>
+                            <Link href='./data' to='/' className=' px-3 '>
                                 Buy Data
                             </Link>
-                            <Link href='' to='/' className=' px-3 '>
+                            <Link href='./cable' to='/' className=' px-3 '>
                                 Buy CableTv
                             </Link>
-                            <Link href='' to='/' className=' px-3 '>
+                            <Link href='./electricity' to='/' className=' px-3 '>
                                 Buy Electricity
                             </Link>
-                            <Link href='' to='/' className=' px-3 '>
+                            <Link href='./bet' to='/' className=' px-3 '>
                                 Fund Bet Wallet
                             </Link>
                             <Link href='' to='/' className=' px-3 '>

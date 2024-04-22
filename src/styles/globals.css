@@ -30,7 +30,6 @@ li:hover{
 
 }
 .controldiv div{
-    width: 30%;
     height: 40%;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
@@ -39,5 +38,13 @@ li:hover{
     display: flex;
     flex-direction: column;text-align: bottom;
 
+    
+}
+@media (max-width:768px) {
+    .controldiv div{
+        /* margin-top: 10px; */
+        margin-bottom: 10px;
+
+    }
     
 }

@@ -23,6 +23,7 @@ module.exports = {
       width:{
         'w-t':'95%',
         'w-i':'90%',
+        'o':'30%'
       },
       borderRadius:{
         '4xl':'10%',
