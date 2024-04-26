@@ -2,6 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouse,faUser, faCirclePlus,faArrowRightFromBracket,faGlobe,faWallet,faCreditCard,faLink,faClock,faQuestionCircle} from '@fortawesome/free-solid-svg-icons'
+
 const Sidenav = () => {
     const [open, setOpen] = useState(false)
     return (
@@ -13,31 +16,37 @@ const Sidenav = () => {
                         <img src='logo.svg' alt='logo' />
                     </div>
                     <li>
-                        <Link href='./dashboard'>Dashboard</Link>
+                      <FontAwesomeIcon icon={faHouse}/>  <Link href='./dashboard'>Dashboard</Link>
                     </li>
                     <li>
                         <Link href='./deposit'>
-                            Deposit
+                        <FontAwesomeIcon icon={faCirclePlus} />   Deposit
+                        </Link>
+                    </li>
+                    <li>
+                        
+                        <Link href='./data'>
+                        <i class="fa-solid fa-phone"></i> Airtime
                         </Link>
                     </li>
                     <li>
                         <Link href='./data'>
-                            Buy Data
+                        <FontAwesomeIcon icon={faGlobe} />  Buy Data
                         </Link>
                     </li>
                     <li>
                         <Link href='./cable'>
-                            Buy CableTv
+                        <i class="fas fa-tv"></i>  Buy CableTv
                         </Link>
                     </li>
-                    <li>Buy Electricity</li>
-                    <li>Fund Bet Wallet</li>
-                    <li>Trade Giftcard</li>
-                    <li>Transactions</li>
-                    <li>Referral</li>
-                    <li>Help & Support</li>
-                    <li>Account</li>
-                    <li>Logout</li>
+                    <li><i class="fa-solid fa-lightbulb"></i>Buy Electricity</li>
+                    <li><FontAwesomeIcon icon={faWallet} />Fund Bet Wallet</li>
+                    <li><FontAwesomeIcon icon={faCreditCard} />Trade Giftcard</li>
+                    <li><FontAwesomeIcon icon={faClock} />Transactions</li>
+                    <li><FontAwesomeIcon icon={faLink} />Referral</li>
+                    <li><FontAwesomeIcon icon={faQuestionCircle} />Help & Support</li>
+                    <li><FontAwesomeIcon icon={faUser} />Account</li>
+                    <li><FontAwesomeIcon icon={faArrowRightFromBracket} />Logout</li>
                 </div>
             </div>
 
